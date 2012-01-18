@@ -1,0 +1,235 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		272334D414C70B900005320E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 272334D314C70B900005320E /* Foundation.framework */; };
+		272334D714C70B900005320E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 272334D614C70B900005320E /* main.m */; };
+		272334DB14C70B900005320E /* massexpand.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 272334DA14C70B900005320E /* massexpand.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		272334CD14C70B900005320E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				272334DB14C70B900005320E /* massexpand.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		272334CF14C70B900005320E /* massexpand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = massexpand; sourceTree = BUILT_PRODUCTS_DIR; };
+		272334D314C70B900005320E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		272334D614C70B900005320E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		272334D914C70B900005320E /* massexpand-Prefix.pch */ = {isa = PBXFileReference; path = "massexpand-Prefix.pch"; sourceTree = "<group>"; };
+		272334DA14C70B900005320E /* massexpand.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = massexpand.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		272334CC14C70B900005320E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272334D414C70B900005320E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		272334C414C70B900005320E = {
+			isa = PBXGroup;
+			children = (
+				272334D514C70B900005320E /* massexpand */,
+				272334D214C70B900005320E /* Frameworks */,
+				272334D014C70B900005320E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		272334D014C70B900005320E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				272334CF14C70B900005320E /* massexpand */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		272334D214C70B900005320E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				272334D314C70B900005320E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		272334D514C70B900005320E /* massexpand */ = {
+			isa = PBXGroup;
+			children = (
+				272334D614C70B900005320E /* main.m */,
+				272334DA14C70B900005320E /* massexpand.1 */,
+				272334D814C70B900005320E /* Supporting Files */,
+			);
+			path = massexpand;
+			sourceTree = "<group>";
+		};
+		272334D814C70B900005320E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				272334D914C70B900005320E /* massexpand-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		272334CE14C70B900005320E /* massexpand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 272334DE14C70B900005320E /* Build configuration list for PBXNativeTarget "massexpand" */;
+			buildPhases = (
+				272334CB14C70B900005320E /* Sources */,
+				272334CC14C70B900005320E /* Frameworks */,
+				272334CD14C70B900005320E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = massexpand;
+			productName = massexpand;
+			productReference = 272334CF14C70B900005320E /* massexpand */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		272334C614C70B900005320E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Z2Live;
+			};
+			buildConfigurationList = 272334C914C70B900005320E /* Build configuration list for PBXProject "massexpand" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 272334C414C70B900005320E;
+			productRefGroup = 272334D014C70B900005320E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				272334CE14C70B900005320E /* massexpand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		272334CB14C70B900005320E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272334D714C70B900005320E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		272334DC14C70B900005320E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		272334DD14C70B900005320E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		272334DF14C70B900005320E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massexpand/massexpand-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		272334E014C70B900005320E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "massexpand/massexpand-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		272334C914C70B900005320E /* Build configuration list for PBXProject "massexpand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272334DC14C70B900005320E /* Debug */,
+				272334DD14C70B900005320E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		272334DE14C70B900005320E /* Build configuration list for PBXNativeTarget "massexpand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				272334DF14C70B900005320E /* Debug */,
+				272334E014C70B900005320E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 272334C614C70B900005320E /* Project object */;
+}
