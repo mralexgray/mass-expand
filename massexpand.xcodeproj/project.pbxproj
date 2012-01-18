@@ -29,7 +29,7 @@
 		272334CF14C70B900005320E /* massexpand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = massexpand; sourceTree = BUILT_PRODUCTS_DIR; };
 		272334D314C70B900005320E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		272334D614C70B900005320E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		272334D914C70B900005320E /* massexpand-Prefix.pch */ = {isa = PBXFileReference; path = "massexpand-Prefix.pch"; sourceTree = "<group>"; };
+		272334D914C70B900005320E /* massexpand-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "massexpand-Prefix.pch"; sourceTree = "<group>"; };
 		272334DA14C70B900005320E /* massexpand.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = massexpand.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
